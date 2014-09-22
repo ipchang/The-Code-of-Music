@@ -28,14 +28,14 @@ void setup() {
 void draw(){
   chord1();
   
-//  if (keyPressed) {
-//    if(key == '1'){
-//      chord1();
-//    }
-//    else if(key == '2'){
-//      chord2();
-//      }
-//    }    
+  if (keyPressed) {
+    if(key == '1'){
+      chord2();
+    }
+    else{
+      chord1();
+      }
+    }    
 }
   
 
